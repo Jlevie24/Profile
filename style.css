@@ -247,6 +247,7 @@ nav li a:hover {
 .my-work h2 {
 	position: relative;
 	font-size: 2.5rem;
+	color: var(--clr-dark);
 	text-transform: uppercase;
 	width: 175px;
 	margin-bottom: 1rem;
