@@ -54,7 +54,7 @@ h2 {
 /* Home Section */
 
 .home {
-	background: url(images/background.png);
+	background: url(images/background2.png);
 	background-position: center;
 	background-size: cover;
 	min-height: 850px;
@@ -125,7 +125,7 @@ nav li a:hover {
 .home p {
 	color: var(--clr-accent-light);
 	margin: 1rem 0;
-	font-size: 1.25rem;
+	font-size: 1.5rem;
 }
 
 .icons-ul {
@@ -137,7 +137,7 @@ nav li a:hover {
 
 .icons-ul .fa-brands {
 	color: var(--clr-accent-light);
-	font-size: 1.75rem;
+	font-size: 2rem;
 	transition: ease-in-out 250ms;
 }
 
