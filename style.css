@@ -201,21 +201,53 @@ nav li a:hover {
 	margin: 1rem 0;
 }
 
+/* Button Border Radius */
+
+:root {
+	--connect-btn-radius: 6px;
+}
+
 .connect-btn {
+	position: relative;
 	color: var(--clr-white);
-	background: var(--clr-accent-light);
 	padding: 10px 25px;
-	border-radius: 25px;
+	border-radius: var(--connect-btn-radius);
 	text-decoration: none;
 	font-size: 1.15rem;
 	text-transform: uppercase;
   	transition: 250ms ease-in-out;
+  	overflow: hidden;
+  	z-index: 1;
 }
 
-.connect-btn:hover {
+.connect-btn::before {
+	content: '';
+	display: block;
+	position: absolute;
+	inset: 0;
+	background: var(--clr-accent-light);
+	border-radius: var(--connect-btn-radius);
+	z-index: -2;
+}
+
+.connect-btn::after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 0px;
 	background: var(--clr-accent-dark);
+	z-index: -1;
+	border-radius: var(--connect-btn-radius);
+	transition: ease-in-out 250ms;
+	transform-origin: left;
 }
 
+.connect-btn:hover::after {
+	width: 100%;
+}
 
 @media (max-width: 950px) {
 	.about {
