@@ -312,6 +312,10 @@ nav li a:hover {
 	margin: 0 auto;
 }
 
+:root {
+	--portfolio-img-border-radius: 7px;
+}
+
 .portfolio {
 	display: grid;
 	margin: 1rem auto;
@@ -322,15 +326,18 @@ nav li a:hover {
 .portfolio-item {
 	overflow: hidden;
 	transition: ease-in-out 250ms;
+	border-radius: var(--portfolio-img-border-radius);
 }
 
 .portfolio-item:hover {
 	box-shadow: 5px 5px 0px 0px var(--clr-white);
+	border-radius: var(--portfolio-img-border-radius);
 }
 
 .portfolio-image {
 	max-width: 100%;
 	transition: ease-in-out 0.7s;
+	border-radius: var(--portfolio-img-border-radius);
 }
 
 .portfolio-image:hover {
