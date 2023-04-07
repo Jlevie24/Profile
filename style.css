@@ -112,7 +112,7 @@ nav li a:hover {
 	margin: 5rem auto 2rem;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 400px) {
 	.profile-image {
 		margin-top: 2rem;
 		width: 250px;
