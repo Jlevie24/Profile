@@ -109,7 +109,7 @@ nav li a:hover {
 	max-width: 450px;
 	border-radius: 50%;
 	border: 5px solid var(--clr-white);
-	margin: 5rem auto 2rem;
+	margin: 4rem auto 2rem;
 }
 
 @media (max-width: 400px) {
