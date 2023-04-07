@@ -60,7 +60,7 @@ h2 {
 	min-height: 100vh;
 	/* min-height: 850px;
 	max-height: 100vh; */
-	padding: 2rem 1rem
+	padding: 2rem;
 } 
 
 header {
@@ -132,7 +132,7 @@ nav li a:hover {
 
 .home p {
 	color: var(--clr-accent-light);
-	margin: 1rem 0 2rem;
+	margin: 1rem 0;
 	font-size: 1.5rem;
 }
 
