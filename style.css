@@ -112,6 +112,13 @@ nav li a:hover {
 	margin: 5rem auto 2rem;
 }
 
+@media (max-width: 350px) {
+	.profile-image {
+		margin-top: 2rem;
+		width: 250px;
+	}
+}
+
 .home h2,
 .home p {
 	text-transform: uppercase;
